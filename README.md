@@ -63,7 +63,7 @@ PHP 8.3 · Laravel · PostgreSQL 16 · Redis 7 · Vue 3 · TypeScript · Pinia �
 
 ## Outros cases
 
-[plataforma-case](https://github.com/filipelira1/plataforma-case) · [crm-case](https://github.com/filipelira1/crm-case) · [mermaid-case](https://github.com/filipelira1/mermaid-case)
+[plataforma-case](https://github.com/filipelira1/plataforma-case) · [crm-case](https://github.com/filipelira1/crm-case) · [mermaid-case](https://github.com/filipelira1/mermaid-case) · [pacs-case](https://github.com/filipelira1/pacs-case)
 
 ---
 
