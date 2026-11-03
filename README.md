@@ -7,7 +7,7 @@
 
 ## Em uma frase
 
-Um SaaS multi-cliente com 13 módulos, API e telas no mesmo repositório, construído por **uma pessoa** com engenharia assistida por IA, com **29 versões em menos de um mês** e QA em cada entrega.
+Um SaaS multi-cliente com 13 módulos, API e telas no mesmo repositório, construído por **uma pessoa** com engenharia assistida por IA, com **32 versões em 31 dias** e QA em cada entrega.
 
 ## Meu papel
 
@@ -25,16 +25,16 @@ Tudo: arquitetura, backend, frontend, banco, infraestrutura, deploy, QA e o proc
 | **Ambiente igual em todo lugar** | containers Debian 12 idênticos no desenvolvimento e em produção. |
 | **Vídeo em tempo real** | teleconsulta com servidor de vídeo próprio, ligada ao restante do sistema. |
 
-## Qualidade em números (até 28/10/2026)
+## Qualidade em números (até 03/11/2026)
 
 | | |
 |---|---|
-| Versões publicadas | **29** em 25 dias |
-| Testes automatizados | **435** (PHPUnit) |
-| Roteiros de navegador | **30** (Playwright), com **226** capturas geradas sozinhas |
+| Versões publicadas | **32** em 31 dias |
+| Testes automatizados | **445** (PHPUnit) |
+| Roteiros de navegador | **45** (Playwright); o manual do usuário tem **58** capturas e **21** demonstrações animadas, geradas sozinhas |
 | QA automático em produção | **33** verificações por rodada |
 | Módulos | **13** |
-| Lições de engenharia registradas | **237**, cada uma virando regra para o erro não voltar |
+| Lições de engenharia registradas | **244**, cada uma virando regra para o erro não voltar |
 
 ## Como a qualidade é garantida
 
