@@ -1,13 +1,13 @@
 # PEP compl_t: engenharia de um SaaS crítico, de ponta a ponta
 
 > Estudo de caso de engenharia de software, por **Filipe Lira**. O código é privado; aqui estão **as decisões, a qualidade e os resultados**.
-> Domínio: prontuário eletrônico para clínicas, um sistema em que erro custa caro. As telas usam dados fictícios.
+> Domínio: prontuário eletrônico para clínicas, um sistema em que cada registro precisa estar certo. As telas usam dados fictícios.
 
 ---
 
 ## Em uma frase
 
-Um SaaS multi-cliente com 13 módulos, API e telas no mesmo repositório, construído por **uma pessoa** com engenharia assistida por IA, com **32 versões em 31 dias** e QA em cada entrega.
+Um SaaS multi-cliente com 13 módulos, API e telas no mesmo repositório, construído por **uma pessoa** com engenharia assistida por IA, com **33 versões em 34 dias** (até 06/11/2026) e QA em cada entrega.
 
 ## Meu papel
 
@@ -25,23 +25,22 @@ Tudo: arquitetura, backend, frontend, banco, infraestrutura, deploy, QA e o proc
 | **Ambiente igual em todo lugar** | containers Debian 12 idênticos no desenvolvimento e em produção. |
 | **Vídeo em tempo real** | teleconsulta com servidor de vídeo próprio, ligada ao restante do sistema. |
 
-## Qualidade em números (até 03/11/2026)
+## Qualidade em números (até 06/11/2026)
 
 | | |
 |---|---|
-| Versões publicadas | **32** em 31 dias |
-| Testes automatizados | **445** (PHPUnit) |
-| Roteiros de navegador | **45** (Playwright); o manual do usuário tem **58** capturas e **21** demonstrações animadas, geradas sozinhas |
-| QA automático em produção | **33** verificações por rodada |
+| Versões publicadas | **33** em 34 dias |
+| Testes automatizados | **461** (PHPUnit) |
+| Roteiros de navegador | **28** (Playwright), clicando pelas telas como uma pessoa; o manual do usuário tem **58** capturas e **21** demonstrações animadas, geradas sozinhas |
+| QA automático em produção | **33** checagens por rodada |
 | Módulos | **13** |
-| Lições de engenharia registradas | **244**, cada uma virando regra para o erro não voltar |
 
 ## Como a qualidade é garantida
 
 - **Quem fecha uma entrega é o QA, não quem escreveu o código.** O QA confere os critérios de aceite e o caminho errado; reprovou, volta.
 - **Toda entrega nasce com critérios de aceite escritos antes do código.**
 - **Manual de uso sempre em dia:** um teste falha se nascer uma tela sem manual, e as capturas do manual são geradas por roteiro.
-- **Erro repetido é falha de processo:** o conserto vai para a regra que deveria ter evitado o erro, não só para o código.
+- **Mesmo caminho em toda entrega:** critério de aceite antes do código, backup antes de subir, conferência em produção depois e caminho de volta em cada versão.
 
 ## Engenharia assistida por IA
 
