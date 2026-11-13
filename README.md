@@ -7,7 +7,7 @@
 
 ## Em uma frase
 
-Um SaaS multi-cliente com 13 módulos, API e telas no mesmo repositório, construído por **uma pessoa** com engenharia assistida por IA, com **33 versões em 34 dias** (até 06/11/2026) e QA em cada entrega.
+Um SaaS multi-cliente com 13 módulos, API e telas no mesmo repositório, construído por **uma pessoa** com engenharia assistida por IA, com **35 versões em 36 dias** (até 08/11/2026) e QA em cada entrega.
 
 ## Meu papel
 
